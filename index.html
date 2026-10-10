@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Private Google Workspace Integrations</title>
+<style>body{font:18px/1.65 system-ui,sans-serif;max-width:760px;margin:4rem auto;padding:0 1.4rem;color:#20262e;background:#fafafa}h1,h2{line-height:1.2}a{color:#1558a6}nav,footer{font-size:.95rem}footer{margin-top:3rem;border-top:1px solid #ddd;padding-top:1rem}</style>
+</head>
+<body>
+<nav><a href="./">Home</a> · <a href="privacy.html">Privacy policy</a></nav>
+<main>
+<h1>Private Google Workspace Integrations</h1>
+<p>This site describes personal integrations operated by Michael Kory Wilson. It is an informational website, not a public application or a Google sign-in service.</p>
+<h2>Hermes</h2>
+<p>Hermes uses Google authorization to work with the operator’s Google Drive files, Google Docs and Google Slides when requested. Access is limited by the permissions granted through Google and the operations the operator authorizes.</p>
+<h2>Private backups</h2>
+<p>A separate rclone OAuth client is being configured to support automated backups to the operator’s Google Drive. Restic encrypts backup contents before rclone transfers them. This backup integration is separate from the Hermes client.</p>
+<h2>Access and control</h2>
+<p>These tools are for the operator’s private use. This website does not provide access to the operator’s accounts, computers, files or backups. OAuth client secrets and tokens are not published here.</p>
+<p>Google permissions can be reviewed or revoked through <a href="https://myaccount.google.com/connections">Google Account connections</a>. Revoking access stops future API access; it does not automatically remove files or backups already stored.</p>
+<p>Read the <a href="privacy.html">privacy policy</a> for details about data use, storage and third-party services.</p>
+</main>
+<footer>Operated by <a href="https://github.com/michaelkory">Michael Kory Wilson</a>. Not affiliated with or endorsed by Google. For non-sensitive questions, use the <a href="https://github.com/michaelkory/google-workspace-home/issues">site’s issue tracker</a>; never post credentials or private files.</footer>
+</body>
+</html>
